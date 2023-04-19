@@ -1,0 +1,83 @@
+.about {
+  flex-direction: column;
+  margin-top: 3em;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-title {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.about-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: antiquewhite;
+  padding: 80px;
+  height: 500px;
+}
+
+img {
+  height: 500px;
+  margin: 20px;
+  border:2px solid #fff;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+}
+
+.about__name {
+  color: rgb(21, 21, 21);
+  font-family: "Great Vibes";
+  font-size: 50px;
+  font-weight: 400;
+  width: fit-content;
+  line-height: 1;
+  letter-spacing: 0;
+  text-align: center;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+
+.about__role {
+  font-size: 30px;
+}
+
+.about__desc {
+  font-size: 1rem;
+  min-width: 300px;  
+  max-width: 500px;
+}
+
+.about__desc,
+.about__contact {
+  margin-top: 2.4em;
+}
+
+.about .link--icon {
+  margin-right: 0.8em;
+}
+
+.about .btn--outline {
+  margin-right: 1em;
+}
+
+@media (max-width: 600px) {
+  .app .about {
+    align-items: flex-start;
+    margin-top: 2em;
+  }
+}
